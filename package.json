@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
     "express": "^4.17.1",
+    "heroku": "^7.30.0",
+    "heroku-cli": "^7.0.9",
     "mongoose": "^5.7.1",
     "mongoose-paginate": "^5.0.3",
     "require-dir": "^1.2.0"
