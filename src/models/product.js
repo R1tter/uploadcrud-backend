@@ -2,11 +2,11 @@ const mongoose = require("mongoose");
 const mongoosePaginate = require("mongoose-paginate");
 
 const ProductSchema = new mongoose.Schema({
-  title: {
+  base: {
     type: String,
     required: true
   },
-  description: {
+  baseCredit: {
     type: String,
     required: true
   },

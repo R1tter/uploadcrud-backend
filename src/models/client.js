@@ -24,6 +24,9 @@ const ClientSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  aproved:{
+    type: String,
+  },
   createdAt: {
     type: Date,
     default: Date.now
